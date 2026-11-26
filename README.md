@@ -67,4 +67,6 @@ For claude.ai, re-zip and upload again to replace the old version.
 
 ## Updating this repo (from the main computer)
 
-Ask Claude Code: "push the skills to GitHub". It copies the latest skills from `C:\Users\hello\.claude\skills\` into this repo and pushes.
+**Automatic.** On the main computer a Claude Code `Stop` hook (`~/.claude/settings.json` → `~/.claude/hooks/sync_skills.py`) runs after every Claude turn. If any skill in `C:\Users\hello\.claude\skills\` changed, it copies the skills into this repo (`~/.claude/skills-repo`), rebuilds the `SKILL.md` index, commits "Auto-sync skills: <names>", pushes here, and refreshes `Downloads\claude-skills-backup\mata-labs-skills.zip`. If nothing changed it does nothing. Log: `~/.claude/hooks/sync_skills.log`.
+
+To push by hand, run `python -I "$HOME/.claude/hooks/sync_skills.py"`, or ask Claude Code to "push the skills to GitHub".
