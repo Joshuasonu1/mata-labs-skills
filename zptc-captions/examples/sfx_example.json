@@ -1,0 +1,21 @@
+{
+  "_note": "SFX on real shot changes only. 'at' = moment the sound's peak lands (seconds). gain_db relative to file.",
+  "sfx_dir": "C:/Users/hello/Documents/dsk-studio/toolkit/sfx",
+  "target_lufs": -14,
+  "events": [
+    {"at": 5.04,  "name": "soft_whoosh_01", "gain_db": -20, "why": "cut: crowd -> wide street"},
+    {"at": 6.52,  "name": "text_pop",       "gain_db": -20, "why": "caption ENDUKU? (question beat)"},
+    {"at": 11.04, "name": "whoosh_quick",   "gain_db": -20, "why": "cut into storm split-screen"},
+    {"at": 15.92, "name": "soft_whoosh_02", "gain_db": -20, "why": "cut: storm -> polling"},
+    {"at": 18.82, "name": "soft_whoosh_01", "gain_db": -20, "why": "cut to Deepavali fireworks"},
+    {"at": 23.59, "name": "soft_whoosh_02", "gain_db": -20, "why": "cut to Kurupam map"},
+    {"at": 27.36, "name": "soft_whoosh_01", "gain_db": -20, "why": "cut: map -> tribal area"},
+    {"at": 39.27, "name": "impact_low",     "gain_db": -16, "why": "Viresh Chandra Dev introduced (only impact)"},
+    {"at": 43.48, "name": "soft_whoosh_02", "gain_db": -20, "why": "cut"},
+    {"at": 48.88, "name": "soft_whoosh_01", "gain_db": -20, "why": "cut"},
+    {"at": 57.19, "name": "soft_whoosh_02", "gain_db": -20, "why": "cut"},
+    {"at": 62.13, "name": "soft_whoosh_01", "gain_db": -20, "why": "cut"},
+    {"at": 67.97, "name": "soft_whoosh_02", "gain_db": -20, "why": "cut"},
+    {"at": 73.01, "name": "soft_whoosh_01", "gain_db": -20, "why": "cut to closing hills"}
+  ]
+}

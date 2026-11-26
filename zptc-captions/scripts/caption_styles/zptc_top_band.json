@@ -1,0 +1,30 @@
+{
+  "name": "ZPTC intro band (black space above a title collage)",
+  "description": "Small white uppercase label over a big condensed uppercase line whose letters show the inverted (negative) colours of the footage. Sits in the lower band of the rounded footage frame, never on the black canvas, never on faces. First used on the Viresh Sir Kurupam ZPTC election reels (Nov 2026).",
+  "font_file": "C:/Windows/Fonts/bahnschrift.ttf",
+  "big_font_variation": "Bold Condensed",
+  "label_font_variation": "Bold",
+  "uppercase": true,
+  "big_size": 150,
+  "big_min_size": 96,
+  "label_size": 54,
+  "negative_grey": 225,
+  "negative_min_brightness": 175,
+  "negative_lift_to_white": 0.1,
+  "halo_darkness": 0.55,
+  "default_frame": {
+    "x0": 114,
+    "x1": 965,
+    "y0": 180,
+    "y1": 430
+  },
+  "frame_margin": 60,
+  "band_position": 0.5,
+  "adaptive_frame": false,
+  "max_words_per_card": 5,
+  "label_share_of_text": 0.38,
+  "fade_in_s": 0.25,
+  "fade_out_s": 0.12,
+  "slide_up_px": 24,
+  "drop_trailing_punctuation": true
+}
