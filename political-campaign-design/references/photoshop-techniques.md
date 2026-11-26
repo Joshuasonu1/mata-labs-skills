@@ -58,5 +58,20 @@ Working habits and feature verdicts distilled from PiXimperfect's beginner cours
 | Generative Restyle / Camera Angles / AI Assistant | regenerated or unreliable |
 These are allowed on background plates only, and must be checked at 100%.
 
+## Core compositing techniques (PiXimperfect beginner playlist, 13 lessons)
+Full lesson notes with exercises: `C:\Users\hello\Downloads\dsk mass reel\photoshop-kb\` (README = index).
+- **Blend modes:** Multiply hides white (birds or line-art on a sky made pure white with a clipped Curves; marble, shadow textures), Screen hides black (smoke, snow, sparks, light leaks), Overlay/Soft Light hide 50% grey (textures, grain, punch), Color fixes *lighting* casts only. To darken or brighten without duplicating the photo, use an **empty Curves layer set to Multiply or Screen** plus Blend If.
+- **Blend If** (double-click the layer): *Underlying* sliders hide by the brightness beneath, *This Layer* by its own; always `Alt`-split. Blue-channel Blend If removes a bright sky behind trees and flags with no selection. Logo-painted-on-a-wall look = Multiply copy + Screen copy with Blend If + 1 px blur + a grunge mask.
+- **Fill vs Opacity:** in Color/Linear Burn/Dodge, Vivid/Linear Light, Hard Mix and Difference, Fill changes how strongly the layer interacts with what's below. **Grade = warm Solid Color → Hard Mix → Fill 15–25% → Blend If split.** With layer styles, Fill 0% keeps only the effect (embossed slogan in a wall).
+- **Fake sun:** soft dab → Color Dodge → untick *Transparency Shapes Layer* → Fill sets the strength, plus a radial gradient glare in Screen mode.
+- **Masks:** select first, then add the adjustment (comes pre-masked); `Alt`+mask button = negative mask; feather/density in Properties; **one mask on a group** instead of copied masks; **double masking** (group mask + layer mask) to place a rim highlight only on the lit side.
+- **Clipping and groups:** `Alt`+click the line = clip (separate grades for leader vs background). Groups default to Pass Through; set the **group to Normal** to keep its adjustments inside.
+- **Halo-free cut-outs:** Select Subject (Cloud) → Select and Mask (Refine Hair, Refine Edge brush, On Black view) → `Ctrl`+click the mask → Contract 2 px → invert → fill black. **Before blurring the background, remove the subject from it:** load the mask → Expand 50 px → Content-Aware Fill, then blur.
+- **Depth:** Blur Gallery Iris/Field/Tilt-Shift on a smart object; Noise tab about 10% so the grain matches. Light direction mismatch → flip the **plate**, not the leader.
+- **Colour:** Hue/Sat advanced targeting (push to extremes to see the range, narrow it, soften the falloff, reset, then edit) to match flags and scarves to the brand hex while skin drops out of range; Prominent Colors preset; colour before texture.
+- **Camera Raw:** RAW → `Shift`+Open Object (re-editable WB); 16-bit Adobe RGB working space; masks Background/Sky (subtract People to protect faces); presets per event; `P` before/after, `O`/`U` clipping.
+- **Brushes:** Flow (builds up as you paint) vs Opacity (per stroke); `Shift`+number = flow; scatter-brush presets (dust, embers, petals) with *Include Tool Settings*; watercolor mask reveals keep face pixels original.
+- **Delivery:** autosave recovery 5 min; Save As for versions, Save a Copy for previews; PSD up to 2 GB → PSB; Export As with sRGB + embed; PNG for text-heavy posters.
+
 ## Shortcut card
 `V` Move · `C` Crop · `B` Brush · `L` Lasso · `J` Healing/Remove group (`Shift+J` cycles) · hold `~` to erase with the brush · `]`/`[` brush size · `Alt`+right-drag for on-canvas size/hardness · `X` swap colours · `Ctrl+J` duplicate layer · `Ctrl+T` transform · `Ctrl+D` deselect · `Ctrl+Shift+I` invert · `Space` pan · `Ctrl+Space`-drag zoom · hold `H` bird's-eye · `Ctrl+0` fit · hold a tool key to borrow that tool, release to return
