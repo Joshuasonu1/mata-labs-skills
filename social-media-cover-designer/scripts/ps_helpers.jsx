@@ -13,7 +13,10 @@ function readJSON(p) { return eval('(' + readText(p) + ')'); }
 function writeLog(p, s, append) { var f = new File(p); f.encoding = 'UTF-8'; f.open(append ? 'a' : 'w'); f.writeln(s); f.close(); }
 function rgb(hex) { var c = new SolidColor(); c.rgb.hexValue = hex; return c; }
 function rgbDesc(hex) { var c = rgb(hex), d = new ActionDescriptor(); d.putDouble(c2('Rd  '), c.rgb.red); d.putDouble(c2('Grn '), c.rgb.green); d.putDouble(c2('Bl  '), c.rgb.blue); return d; }
-function fontOK(ps) { try { return !!app.fonts.getByName(ps); } catch (e) { return false; } }
+// fontOK scans the font list once (getByName throws an uncatchable 'No such element' inside nested evalFile)
+var __FONTS = null;
+function fontOK(ps) { if (!__FONTS) { __FONTS = {}; for (var i = 0; i < app.fonts.length; i++) __FONTS[app.fonts[i].postScriptName] = 1; } return !!__FONTS[ps]; }
+function findFonts(substr) { fontOK(''); var r = []; for (var n in __FONTS) if (n.toLowerCase().indexOf(substr.toLowerCase()) >= 0) r.push(n); return r; }
 function bnd(L) { var b = L.bounds; return [b[0].as('px'), b[1].as('px'), b[2].as('px'), b[3].as('px')]; }
 
 function newDoc(w, h, name) { return app.documents.add(w, h, 72, name, NewDocumentMode.RGB, DocumentFill.TRANSPARENT); }
