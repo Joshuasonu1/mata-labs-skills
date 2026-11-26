@@ -67,7 +67,7 @@ For claude.ai, re-zip and upload again to replace the old version.
 
 ## Updating this repo (from the main computer)
 
-**Automatic.** On the main computer a Claude Code `Stop` hook (`~/.claude/settings.json` → `~/.claude/hooks/sync_skills.py`) runs after every Claude turn. If any skill in `C:\Users\hello\.claude\skills\` changed, it copies the skills into this repo (`~/.claude/skills-repo`), rebuilds the `SKILL.md` index, commits "Auto-sync skills: <names>", pushes here, and refreshes `Downloads\claude-skills-backup\mata-labs-skills.zip`. If nothing changed it does nothing. Log: `~/.claude/hooks/sync_skills.log`.
+**Automatic.** On the main computer a Claude Code `Stop` hook (`~/.claude/settings.json` → `~/.claude/hooks/sync_skills.py`) runs after every Claude turn. If any skill in `C:\Users\hello\.claude\skills\` changed, it copies the skills into this repo (`~/.claude/skills-repo`), rebuilds the `SKILL.md` index, commits "Auto-sync skills: <names>", pushes here, and refreshes `OneDrive\Desktop\claude-skills-backup\mata-labs-skills.zip`. If nothing changed it does nothing. Log: `~/.claude/hooks/sync_skills.log`.
 
 **Deletions are never synced.** If a skill (or the whole skills folder) is deleted on the computer, it stays here on GitHub. To remove a skill from GitHub, delete it here by hand.
 
