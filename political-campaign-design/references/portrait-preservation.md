@@ -5,6 +5,7 @@ The people in these covers are real public figures. Their face is their identity
 ## Never
 - Generate, redraw, upscale-with-AI-hallucination, "enhance", beautify, slim, de-age, or face-swap the person.
 - Ask an image model (ChatGPT, Firefly, Midjourney…) to produce an image **containing the person**, even "for reference" in the final file.
+- Run Photoshop's regenerating features on the person: **Relight layer, Generative Upscale (Firefly Upscaler), Remove Related Elements, Generative Recompose, Generative Restyle, Camera Angles**. They rebuild face, hair and clothing pixels. Use them on background plates only (see `photoshop-techniques.md`).
 - Use liquify, skin smoothing, eye or teeth whitening, or "portrait" filters.
 - Recolour skin, change hair or hairline, add or remove beard, glasses, tilak or jewellery.
 - Flip a portrait horizontally if it shows text, a party symbol, a watch hand or a parting. Mirroring changes how familiar faces read. Ask first.

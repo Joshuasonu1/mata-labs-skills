@@ -45,7 +45,7 @@ For a **series** (e.g. 15 reel covers), rotate systems and vary crop, pose and l
 1. **Brief:** concept in 3 lines (story, mood, hero image), system choice, formats.
 2. **Tool check** (be honest): Photoshop scriptable? ChatGPT app reachable via computer use? Adobe connector? If not, use the fallbacks in `../social-media-cover-designer/workflows/research-assets.md` §0 and say so.
 3. **Assets:** client photos first, then free stock, then ChatGPT plates (prompt rules in `references/asset-sources.md`). Log everything.
-4. **Photoshop:** Remove Background on the original portrait, composite, colour match, rim light, contact shadow (never a dark halo), textures, typography, grade, grain.
+4. **Photoshop:** Remove Background on the original portrait, composite, colour match, rim light, contact shadow (never a dark halo), textures, typography, grade, grain. Follow the setup, non-destructive habits and the list of banned 2027 AI features in `references/photoshop-techniques.md` (no Relight, Recompose or Generative Upscale on the leader; re-frame with Generative Expand on plates only).
 5. **QC** (below), then deliver layered PSD plus PNG per format.
 
 Shared tested scripts live in `../social-media-cover-designer/scripts/`: `ps_cutout.jsx` (batch Remove Background), `ps_helpers.jsx` (place, fit text, FX, shapes, save). Launch with `"C:\Program Files\Adobe\Adobe Photoshop 2027\Photoshop.exe" runner.jsx` while Photoshop is open; click Yes on the first run-script prompt; keep the PC unlocked.
@@ -62,4 +62,4 @@ Shared tested scripts live in `../social-media-cover-designer/scripts/`: `ps_cut
 Report the average and the remaining weaknesses honestly.
 
 ## References
-`references/design-analysis.md` (six reference posters decoded plus the @ktrtrs reel-cover grammar plus lessons from past jobs) · `typography-guide.md` · `colour-palettes.md` · `portrait-preservation.md` · `asset-sources.md`.
+`references/design-analysis.md` (six reference posters decoded plus the @ktrtrs reel-cover grammar plus lessons from past jobs) · `typography-guide.md` · `colour-palettes.md` · `portrait-preservation.md` · `asset-sources.md` · `photoshop-techniques.md` (tool setup, cut-out and cleanup methods, re-framing, Camera Raw, shortcuts).
