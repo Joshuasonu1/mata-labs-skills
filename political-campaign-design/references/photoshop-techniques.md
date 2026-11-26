@@ -58,6 +58,20 @@ Working habits and feature verdicts distilled from PiXimperfect's beginner cours
 | Generative Restyle / Camera Angles / AI Assistant | regenerated or unreliable |
 These are allowed on background plates only, and must be checked at 100%.
 
+## Advanced library (75 tutorials: text effects, texturing, cinematic posters)
+Read these before designing: `C:\Users\hello\Downloads\dsk mass reel\photoshop-kb\` → `ADVANCED_PHOTOSHOP_WORKFLOWS.md` (W1 reference recreation, W3 campaign poster), `CINEMATIC_POSTER_DESIGN.md` §11 (cinematic → campaign guardrails), `TYPOGRAPHY_AND_TEXT_EFFECTS.md`, `IMAGE_TEXTURING_AND_EFFECTS.md`, `YOUTUBE_TUTORIAL_INDEX.md` (sources).
+Key additions:
+- **Key-light matching**: clipped Curves + Color Balance per element before any effect; nothing brighter than the key light.
+- **Painted rim light**: Screen Solid Color, Blend If off the darks, textured brush on the lit side (≤30% on leaders).
+- **Contact shadow**: darkest at the touch point.
+- **Fire light**: Blend If Red.
+- **Fog**: Screen + Colorize.
+- **Beam brush**: leading lines.
+- **Fringe**: Minimum about 7 on the mask.
+- **Brutalist grit**: noise, then Threshold.
+- **Print integration**: a displacement map at about 2 px.
+- **Type**: gold/chrome via Bevel Depth 1000 + Gradient Map; spray via Fill 0 + Drop Shadow Cone + Noise + Blend If. Never split Telugu text into per-glyph shapes.
+
 ## Core compositing techniques (PiXimperfect beginner playlist, 13 lessons)
 Full lesson notes with exercises: `C:\Users\hello\Downloads\dsk mass reel\photoshop-kb\` (README = index).
 - **Blend modes:** Multiply hides white (birds or line-art on a sky made pure white with a clipped Curves; marble, shadow textures), Screen hides black (smoke, snow, sparks, light leaks), Overlay/Soft Light hide 50% grey (textures, grain, punch), Color fixes *lighting* casts only. To darken or brighten without duplicating the photo, use an **empty Curves layer set to Multiply or Screen** plus Blend If.
