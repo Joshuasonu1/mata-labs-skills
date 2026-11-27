@@ -25,6 +25,7 @@ This bundle holds every skill as a subfolder. Pick the one that fits the task, t
 | `ig-repurpose` | >- |
 | `ig-story` | >- |
 | `ig-viral` | >- |
+| `learn` | Watch a YouTube video, playlist or podcast and turn what it teaches into a reusable skill. Use when the person types /learn, pastes a video or podcast link and says watch this, learn this, learn what it teaches, listen to this, or turn this into a skill. |
 | `motion-broll` | Turn a talking-head video and its transcript into motion-graphic B-roll timed to the speaker's words, in a continuous one-shape style (one element that morphs and never cuts, driven by a cursor, spring motion). Use when someone gives a video (and ideally a transcript) and asks for motion graphics, B-roll, animated cutaways or overlays. |
 | `object-separation` | Separate a person, product or hand from the background in a video, on the user's own computer with SAM 2. Scans the machine first to pick the right model size, then outputs the same video with the separated subject highlighted in green, plus frame-by-frame masks. Use when someone wants to separate, isolate, cut out or rotoscope something in a video. |
 | `polcomms-reels` | Edit political-communications reels (press-conference cut-downs and cinematic mass reels) for MATA Labs PolComms clients such as Viresh Sir and Dasoju Sravan (DSk), using the brand files in the video toolkit. |
